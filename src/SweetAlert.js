@@ -207,9 +207,9 @@ export const withSwalInstance = swalInstance =>
           .then(
             (result) => {
               if (result.value) {
-                this.handleClickConfirm(onConfirm);
+                this.handleClickConfirm(onConfirm, result);
               } else {
-                this.handleClickCancel(onCancel, result.dismiss);
+                this.handleClickCancel(onCancel, result);
               }
             }
           );
