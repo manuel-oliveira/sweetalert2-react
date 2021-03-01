@@ -5,7 +5,7 @@
 [![Test coverage][coveralls-image]][coveralls-url]
 [![Downloads][downloads-image]][downloads-url]
 
-> Declarative SweetAlert in React
+> Declarative SweetAlert in React - Tweaked for confirmation callback
 
 ## Introduction
 
